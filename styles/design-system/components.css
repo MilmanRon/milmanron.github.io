@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    border-radius: var(--border);
+    max-height: 200px;
+    align-items: center;
+}
+
+input{
+    border: none;
+    border-radius: var(--border);
+    font-size: 24px;
+    font-weight: 650;
+    padding-block: 8px;
+    padding-right: 20px;
+}
+
+input:focus {
+  outline: 3px solid var(--color-accent);
+  /* outline-offset: 2px; */
+}

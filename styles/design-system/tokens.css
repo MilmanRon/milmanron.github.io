@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Open Sans Hebrew";
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
+  font-weight: 300 800; 
+  font-display: swap;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-dark: #2d3436;
+  --color-accent: #00b4d8;
+
+  --color-bg-light: var(--color-white);
+  --color-bg-dark: var(--color-dark);
+  --color-text-light: var(--color-white);
+  --color-text-dark: var(--color-dark);
+  --color-highlight: var(--color-accent);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 32px;
+
+  --border: 6px;
+
+  --font-family: "Open Sans Hebrew", sans-serif;
+
+  --text-hero-heading: 64px;
+  --text-hero-body: 32px;
+  --text-section-heading: 36px;
+  --text-button: 24px;
+  --text-card: 20px;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-bold: 700;
+  --weight-extra-bold: 800;
+}

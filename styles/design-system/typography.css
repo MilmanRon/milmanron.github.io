@@ -1,0 +1,43 @@
+body {
+  font-family: var(--font-family);
+}
+
+.hero-heading {
+  font-size: var(--text-hero-heading);
+  font-weight: var(--weight-extra-bold);
+  line-height: 1;
+}
+
+.hero-text {
+  font-size: var(--text-hero-body);
+  font-weight: var(--weight-regular);
+  line-height: 1.05;
+}
+
+.section-heading {
+  font-size: var(--text-section-heading);
+  font-weight: var(--weight-regular);
+  line-height: 0.9;
+}
+
+.phone-number {
+  font-size: 36px;
+  font-weight: 600;
+  background-color: var(--color-accent);
+  border-radius: var(--border);
+  padding-inline: 28px;
+}
+
+.btn-text {
+  font-size: var(--text-button);
+  font-weight: var(--weight-light);
+}
+
+.card-text {
+  font-size: var(--text-card);
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: var(--weight-bold);
+}

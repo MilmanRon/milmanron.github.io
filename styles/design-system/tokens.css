@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Open Sans Hebrew";
   src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
-  font-weight: 300 800; 
+  font-weight: 300 800;
   font-display: swap;
 }
 
@@ -26,10 +26,10 @@
 
   --font-family: "Open Sans Hebrew", sans-serif;
 
-  --text-hero-heading: 64px;
+  --text-hero-heading: 52px;
   --text-hero-body: 32px;
-  --text-section-heading: 36px;
-  --text-button: 24px;
+  --text-section-heading: 34px;
+  --text-button: 20px;
   --text-card: 20px;
 
   --weight-light: 300;

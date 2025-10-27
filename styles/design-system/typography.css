@@ -21,11 +21,11 @@ body {
 }
 
 .phone-number {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
   background-color: var(--color-accent);
   border-radius: var(--border);
-  padding-inline: 28px;
+  padding-inline: 16px;
 }
 
 .btn-text {
@@ -40,4 +40,13 @@ body {
 
 .text-bold {
   font-weight: var(--weight-bold);
+}
+
+@media (min-width: 420px) {
+  .phone-number {
+    font-size: 32px;
+    font-weight: 600;
+    background-color: var(--color-accent);
+    border-radius: var(--border);
+  }
 }

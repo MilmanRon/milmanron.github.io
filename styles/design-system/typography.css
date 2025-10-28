@@ -31,6 +31,11 @@ body {
   text-decoration: none;
 }
 
+a[href^="tel"] {
+  color: white !important;
+  text-decoration: none !important;
+}
+
 .btn-text {
   font-size: var(--text-button);
   font-weight: var(--weight-light);

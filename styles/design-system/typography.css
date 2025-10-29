@@ -32,8 +32,10 @@ body {
 }
 
 a[href^="tel"] {
-  color: white !important;
+  color: var(--color-text-light) !important;
   text-decoration: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-text-decoration: none !important;
 }
 
 .btn-text {
@@ -43,7 +45,7 @@ a[href^="tel"] {
 
 .card-text {
   font-size: var(--text-card);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .text-bold {

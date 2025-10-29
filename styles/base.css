@@ -10,6 +10,8 @@ html,
 body {
   height: 100vh;
   -webkit-text-size-adjust: 100%;
+  padding-top: 4vh;
+  background-color: var( --color-bg-light);
 }
 
 body {

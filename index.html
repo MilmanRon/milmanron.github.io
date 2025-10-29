@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preload" href="./styles/fonts/OpenSans-VariableFont_wdth,wght.woff2" as="font" type="font/woff2" crossorigin>
+    <link
+      rel="preload"
+      href="./styles/fonts/OpenSans-VariableFont_wdth,wght.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <div class="logo"></div>
+    </header>
+    <ul class="menu shadow">
+      <li><a href="#">דף בית</a></li>
+      <li><a href="#">פרויקטים</a></li>
+      <li><a href="#">עלינו</a></li>
+    </ul>
     <!-- Hero -->
     <section class="bg-dark">
       <div class="spacing-32 py-2">
@@ -72,15 +93,15 @@
     <!-- Contact -->
     <section class="bg-dark flex-center">
       <div class="container text-center spacing-32 py-2">
-        <h2 class="section-heading">ניתן להתקשר אלינו</h2>
-        <span class="phone-number">050-990-0103</span>
+        <h2 class="section-heading" id="call-us">ניתן להתקשר אלינו</h2>
+        <a href="tel:+97250-990-0103" class="phone-number">050-990-0103</a>
         <span style="font-size: 36px; font-weight: 700">או</span>
         <h2 class="section-heading">השאירו פרטים ונחזור אליכם בהקדם !</h2>
       </div>
       <form class="container">
         <div class="spacing-32">
           <input type="text" name="name" placeholder="שם" />
-          <input type="tel" name="phone" placeholder="טלפון" dir="rtl"/>
+          <input type="tel" name="phone" placeholder="טלפון" dir="rtl" />
           <input type="email" name="email" placeholder="מייל" />
         </div>
         <div class="grid-4">
@@ -90,5 +111,6 @@
         </div>
       </form>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>

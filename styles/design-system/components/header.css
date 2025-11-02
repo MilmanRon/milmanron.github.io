@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  --header-height: 10.4vh;
+  --header-height: 10.4svh;
   background: var(--color-bg-light);
   position: fixed;
   top: 0;

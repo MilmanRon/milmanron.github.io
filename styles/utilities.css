@@ -40,6 +40,9 @@
 .py-2 {
   padding-block: 32px;
 }
+.py-3 {
+  padding-block: 64px;
+}
 
 .shadow {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.284);

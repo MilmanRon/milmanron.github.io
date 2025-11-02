@@ -12,26 +12,18 @@
   transition: 0.2s;
 }
 
-@media (hover: hover) {
-  .btn:hover {
-    transform: translateY(-2px);
-  }
+.btn-primary:active {
+  filter: brightness(1.1);
+}
 
-  .btn-primary:hover {
-    filter: brightness(1.1);
-    /* transform: translateY(-2px); */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  }
+.btn-secondary:active {
+  background-color: var(--color-accent);
+  color: var(--color-text-light);
+}
 
-  .btn-secondary:hover {
-    background-color: var(--color-accent);
-    color: var(--color-text-light);
-  }
-
-  .btn-secondary-dark:hover {
-    background-color: var(--color-dark);
-    color: var(--color-text-light);
-  }
+.btn-secondary-dark:active {
+  background-color: var(--color-dark);
+  color: var(--color-text-light);
 }
 
 .btn:hover {

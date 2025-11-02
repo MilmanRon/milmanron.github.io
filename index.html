@@ -14,23 +14,28 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <button class="burger" aria-label="Toggle menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
-      <div class="logo"></div>
+    <header class="transperant bottom-round shadow">
+      <div class="header-top">
+        <!-- TODO: Check nav placement, is it accessible? -->
+        <nav> 
+          <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+        <div class="logo"></div>
+      </div>
+      <div class="content hidden">
+        <ul>
+          <li><a href="#">דף בית</a></li>
+          <li><a href="#">פרויקטים</a></li>
+          <li><a href="#">עלינו</a></li>
+          <li class="cta"><a href="#contact-us">בקשה להצעת מחיר</a></li>
+        </ul>
+      </div>
     </header>
-    <ul class="menu shadow">
-      <li><a href="#">דף בית</a></li>
-      <li><a href="#">פרויקטים</a></li>
-      <li><a href="#">עלינו</a></li>
-    </ul>
-    <!-- Hero -->
-    <section class="bg-dark">
+    <section class="bg-dark" id="hero">
       <div class="spacing-32 py-2">
         <div class="container">
           <h1 class="hero-heading">מתכת בע"מ</h1>
@@ -48,16 +53,16 @@
             </a>
           </div>
           <div class="span-2 my-1">
-            <a class="btn btn-primary">
+            <a href="#contact-us" class="btn btn-primary">
               <span>צרו קשר</span>
-              <img src="./assets/phone-new.svg" alt="" />
+              <img src="./assets/phone.svg" alt="" />
             </a>
           </div>
         </div>
       </div>
     </section>
     <!-- Services -->
-    <section class="spacing-32 py-2">
+    <section class="bg-light spacing-32 py-2" id="services">
       <h2 class="section-heading text-center">השירותים<br />שלנו</h2>
       <div>
         <div class="grid-4-narrow">
@@ -91,10 +96,12 @@
       </div>
     </section>
     <!-- Contact -->
-    <section class="bg-dark flex-center">
+    <section class="bg-dark flex-center" id="contact-us" style="scroll-margin: 10vh;">
       <div class="container text-center spacing-32 py-2">
         <h2 class="section-heading" id="call-us">ניתן להתקשר אלינו</h2>
-        <a href="tel:+97250-990-0103" class="phone-number">050-990-0103</a>
+        <a href="tel:+97250-990-0103" class="phone-number text-light"
+          >050-990-0103</a
+        >
         <span style="font-size: 36px; font-weight: 700">או</span>
         <h2 class="section-heading">השאירו פרטים ונחזור אליכם בהקדם !</h2>
       </div>
@@ -111,6 +118,23 @@
         </div>
       </form>
     </section>
+    <footer class="top-round text-footer">
+      <div class="footer-top">
+        <div class="logo"></div>
+        <a href="tel:+97250-990-0103" class="text-dark" style="margin-top: 8px"
+          >050-990-0103</a
+        >
+        <a class="text-dark">yurishapshal@gmail.com </a>
+      </div>
+      <div class="footer-bottom">
+        <h3 style="font-size: 20px; font-weight: 700">מפת האתר</h3>
+        <ul>
+          <li><a href="#">דף בית</a></li>
+          <li><a href="#">פרויקטים</a></li>
+          <li><a href="#">עלינו</a></li>
+        </ul>
+      </div>
+    </footer>
     <script src="./script.js"></script>
   </body>
 </html>

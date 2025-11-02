@@ -9,10 +9,37 @@
   justify-content: center;
   gap: var(--space-2);
   width: 100%;
+  transition: 0.2s;
 }
 
-.btn:hover{
+@media (hover: hover) {
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn-primary:hover {
+    filter: brightness(1.1);
+    /* transform: translateY(-2px); */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-accent);
+    color: var(--color-text-light);
+  }
+
+  .btn-secondary-dark:hover {
+    background-color: var(--color-dark);
+    color: var(--color-text-light);
+  }
+}
+
+.btn:hover {
   cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.96);
 }
 
 .btn-primary {

@@ -31,8 +31,13 @@ body {
   text-decoration: none;
 }
 
+.text-footer{
+  font-size: 20px;
+  font-weight: 400;
+}
+
 a[href^="tel"] {
-  color: var(--color-text-light) !important;
+  /* color: var(--color-text-light) !important; */
   text-decoration: none !important;
   -webkit-tap-highlight-color: transparent !important;
   -webkit-text-decoration: none !important;

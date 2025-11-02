@@ -6,8 +6,11 @@
 
 @import 'design-system/layout.css';
 
-@import 'design-system/buttons.css';
-
-@import 'design-system/components.css';
+@import 'design-system/components/buttons.css';
+@import 'design-system/components/header.css';
+@import 'design-system/components/burger.css';
+@import 'design-system/components/card.css';
+@import 'design-system/components/input.css';
+@import 'design-system/components/footer.css';
 
 @import 'utilities.css';
